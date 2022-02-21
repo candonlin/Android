@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RegalAndroidIME</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="ime_action_go">GO</string>
+    <string name="ime_action_search">SEARCH</string>
+    <string name="ime_action_send">SEND</string>
+    <string name="ime_action_next">NEXT</string>
+    <string name="ime_action_done">DONE</string>
+    <string name="ime_action_previous">PREVIOUS</string>
+    <string name="ime_action_default">test</string>
+
+
+</resources>

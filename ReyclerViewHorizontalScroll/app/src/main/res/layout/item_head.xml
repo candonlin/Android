@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/f1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field1"
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/f2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field2"
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/f3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field3"
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/f4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field4"
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/f5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field5"
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/f6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:gravity="left|center_vertical"
+        android:padding="0dp"
+        android:text="Field6"
+        android:textColor="#ffffff"></Button>
+</LinearLayout>

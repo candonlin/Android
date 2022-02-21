@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="54dip"
+    android:keyWidth="17%p"
+    android:verticalGap="5dp">
+    <Row>
+        <Key android:codes="45" android:keyEdgeFlags="left" android:horizontalGap="2dp" android:keyLabel="-"/>
+        <Key android:codes="49" android:horizontalGap="6dp" android:keyLabel="1" android:keyWidth="19.4%p"/>
+        <Key android:codes="50" android:horizontalGap="6dp" android:keyLabel="2" android:keyWidth="19.4%p"/>
+        <Key android:codes="51" android:horizontalGap="6dp" android:keyLabel="3" android:keyWidth="19.4%p"/>
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:horizontalGap="6dp" android:keyIcon="@drawable/ic_backspace_black_24dp"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="47" android:keyEdgeFlags="left" android:horizontalGap="2dp"  android:keyLabel="/" />
+        <Key android:codes="52" android:horizontalGap="6dp" android:keyLabel="4" android:keyWidth="19.4%p"/>
+        <Key android:codes="53" android:horizontalGap="6dp" android:keyLabel="5" android:keyWidth="19.4%p"/>
+        <Key android:codes="54" android:horizontalGap="6dp" android:keyLabel="6" android:keyWidth="19.4%p"/>
+        <Key android:codes="46" android:keyLabel="." android:horizontalGap="6dp"   android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row>
+        <Key android:codes="58" android:keyEdgeFlags="left" android:horizontalGap="2dp" android:keyLabel=":"/>
+        <Key android:codes="55" android:horizontalGap="6dp" android:keyLabel="7"  android:keyWidth="19.4%p"/>
+        <Key android:codes="56" android:horizontalGap="6dp" android:keyLabel="8"  android:keyWidth="19.4%p"/>
+        <Key android:codes="57" android:horizontalGap="6dp" android:keyLabel="9"  android:keyWidth="19.4%p"/>
+        <Key android:codes="44" android:keyLabel="," android:horizontalGap="6dp" android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-2" android:keyLabel="abc" android:keyEdgeFlags="left" android:horizontalGap="2dp"/>
+        <Key android:codes="-2" android:horizontalGap="6dp" android:keyWidth="19.4%p" android:keyIcon="@drawable/ic_reply_black_24dp"  />
+        <Key android:codes="48" android:horizontalGap="6dp" android:keyWidth="19.4%p" android:keyLabel="0"  />
+        <Key android:codes="32" android:isRepeatable="true"  android:keyWidth="19.4%p" android:horizontalGap="6dp" android:keyIcon="@drawable/ic_space_bar_black_24dp" />
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyEdgeFlags="right"  android:horizontalGap="6dp"
+          />
+    </Row>
+</Keyboard>
